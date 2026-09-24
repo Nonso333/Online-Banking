@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="management.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Nonso Microfinance Bank</div>
+
+            <ul class="nav-links">
+                <li><a href="landing.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="management.html">Management</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="registration.html">Registration</a></li>
+            </ul>
+
+           
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+        <!-- Header -->
+        <header>
+            <div>
+                <h1>Management Dashboard</h1>
+                <p>Welcome back, Administrator</p>
+            </div>
+
+            <div class="admin">
+                <span>Admin</span>
+                <div class="profile">A</div>
+            </div>
+        </header>
+
+        <!-- Statistics -->
+        <section class="cards">
+
+            <div class="card">
+                <h3>Total Customers</h3>
+                <h2>2,450</h2>
+                <p>Registered customers</p>
+            </div>
+
+            <div class="card">
+                <h3>Total Accounts</h3>
+                <h2>3,120</h2>
+                <p>Active accounts</p>
+            </div>
+
+            <div class="card">
+                <h3>Total Transactions</h3>
+                <h2>8,540</h2>
+                <p>This month</p>
+            </div>
+
+            <div class="card">
+                <h3>Total Balance</h3>
+                <h2>₦25.8M</h2>
+                <p>Customer funds</p>
+            </div>
+
+        </section>
+
+        <!-- Recent Transactions -->
+        <section class="content-box">
+            <div class="section-title">
+                <h2>Recent Transactions</h2>
+                <button>View All</button>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Customer</th>
+                        <th>Transaction ID</th>
+                        <th>Type</th>
+                        <th>Amount</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>John Smith</td>
+                        <td>#TRX10234</td>
+                        <td>Transfer</td>
+                        <td>₦50,000</td>
+                        <td><span class="success">Completed</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>Mary James</td>
+                        <td>#TRX10235</td>
+                        <td>Deposit</td>
+                        <td>₦100,000</td>
+                        <td><span class="success">Completed</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>David Paul</td>
+                        <td>#TRX10236</td>
+                        <td>Withdrawal</td>
+                        <td>₦30,000</td>
+                        <td><span class="pending">Pending</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>Sarah Williams</td>
+                        <td>#TRX10237</td>
+                        <td>Payment</td>
+                        <td>₦15,500</td>
+                        <td><span class="success">Completed</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Customer Management -->
+        <section class="content-box">
+            <div class="section-title">
+                <h2>Customer Management</h2>
+                <button>Add Customer</button>
+            </div>
+
+            <div class="customer-list">
+
+                <div class="customer">
+                    <div class="customer-info">
+                        <div class="customer-image">J</div>
+                        <div>
+                            <h3>John Smith</h3>
+                            <p>johnsmith@email.com</p>
+                        </div>
+                    </div>
+
+                    <button class="manage">Manage</button>
+                </div>
+
+                <div class="customer">
+                    <div class="customer-info">
+                        <div class="customer-image">M</div>
+                        <div>
+                            <h3>Mary James</h3>
+                            <p>maryjames@email.com</p>
+                        </div>
+                    </div>
+
+                    <button class="manage">Manage</button>
+                </div>
+
+                <div class="customer">
+                    <div class="customer-info">
+                        <div class="customer-image">D</div>
+                        <div>
+                            <h3>David Paul</h3>
+                            <p>davidpaul@email.com</p>
+                        </div>
+                    </div>
+
+                    <button class="manage">Manage</button>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+</body>
+</html>
